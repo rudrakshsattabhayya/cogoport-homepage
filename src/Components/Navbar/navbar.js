@@ -1,8 +1,25 @@
 import "./navbar.css";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [scrollPosition, updateScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      updateScrollPosition(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div id="navbar">
+    <div
+      id="navbar"
+      className={scrollPosition !== 0?"navbarScrolledProperties":"normalNavbar"}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="120"
@@ -49,6 +66,25 @@ const Navbar = () => {
           <li className="navListItem" aria-expanded="false">
             <div className="navListItemBtn">
               <span>Partners</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 14 14"
+                width="1em"
+                height="1em"
+                role="img"
+                className="navListItemBtnArrow"
+              >
+                <path
+                  d="M1.989 4.052a.55.55 0 0 0-.286.449c0 .199-.084.109 2.518 2.716 1.488 1.492 2.501 2.489 2.557 2.519a.516.516 0 0 0 .444 0c.056-.03 1.069-1.027 2.557-2.519 2.606-2.612 2.518-2.516 2.518-2.719a.536.536 0 0 0-.285-.44c-.085-.044-.211-.045-5.017-.044-4.47 0-4.937.004-5.006.038"
+                  fillRule="evenodd"
+                ></path>
+              </svg>
+            </div>
+          </li>
+          <li className="navListItem" aria-expanded="false">
+            <div className="navListItemBtn">
+              <span>Tools</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

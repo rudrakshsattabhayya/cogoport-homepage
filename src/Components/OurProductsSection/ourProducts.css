@@ -1,0 +1,152 @@
+.ourProductSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fffef2;
+}
+
+.oneStepSection{
+    width:1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.oneStepSection h2{
+    margin-bottom:10px;
+    font-size: 37px;
+    line-height: 1.2;
+    margin-top:0;
+    font-family: "Ubuntu",sans-serif;
+    color:#000;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 900;
+}
+
+.oneStepSectionPara{
+    font-size: 14px;
+}
+
+.oneStepSectionImgContainer{
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+
+.oneStepSectionImg{
+    display: block;
+    width: 500px;
+    object-fit: contain;
+    height: 100%;
+}
+
+.ourProductsContainer{
+    display: block;
+    width:1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ourProductsHeading{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+    color:#000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.ourProductsListContainer1{
+    display: flex;
+    justify-content: space-between;
+    background: #fffef2;
+}
+
+.ourProductsListContainer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourProductsListItem{
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.ourProductsListItem h4{
+    width: 300px;
+    margin-right: 50px;
+    font-size: 24px;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.ourProductsListItemRight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ourProductsListItemRight div{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 135px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+
+.ourProductsListItemRight div:hover{
+    border:1.5px solid #ee3425;
+}
+
+.ourProductsListItemRight h4{
+    margin-top:5px;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cardFindOutMore{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    color: #ee3425;
+    cursor: pointer;
+}
+
+.cardFindOutMoreText {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ee3425;
+    cursor: pointer;
+    margin-right: 4px;
+}

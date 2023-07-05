@@ -1,10 +1,19 @@
 import Navbar from "../../Components/Navbar/navbar";
+import TopContainer from "../../Components/Top-Container/topContainer";
+import StatsSection from "../../Components/StatsSection/statsSection";
+import OurProductsSection from "../../Components/OurProductsSection/ourProducts";
 
 const HomePage = () => {
-    return(
+  return (
     <div>
-        <Navbar />
-    </div>)
-}
+      <Navbar />
+      <main className="mainContainer">
+        <TopContainer />
+        <StatsSection />
+        <OurProductsSection />
+      </main>
+    </div>
+  );
+};
 
 export default HomePage;
