@@ -1,0 +1,37 @@
+.getStartedSectionContainer{
+    background-color: #fbdc00; 
+    margin-bottom: 50px;
+}
+
+.wide_container_RLauto{
+    display: block;
+    width:1200px;
+    padding:16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading_rttyscttnl{
+    margin-top: 0;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 800;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.rtty_yellow_container{
+    padding:25px 0;display: flex;justify-content: space-between;
+}
+
+.flexcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

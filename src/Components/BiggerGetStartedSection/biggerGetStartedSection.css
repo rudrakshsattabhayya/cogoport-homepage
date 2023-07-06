@@ -1,0 +1,48 @@
+.biggerGetStartedSection{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 16px 100px;
+    padding-top: 4rem;
+}
+
+.biggerGetStartedSectionImgContainer{
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.biggerGetStartedSectionHeading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.biggerGetStartedSectionDescription {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.biggerGetStartedSectionDescription p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+}

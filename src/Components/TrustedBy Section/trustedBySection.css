@@ -1,0 +1,46 @@
+.TrustedBySectionContainer {
+    margin-bottom: 50px;
+    display: block;
+    overflow-x: hidden;
+}
+
+.TrustedBySectionContainer h3 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.TrustedBySectionInnerContainer {
+    width: 100%;
+}
+
+#trustedBySectionUl {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+article {
+    display: flex;
+    width: 200%;
+
+    animation: bannermove 20s linear infinite;
+}
+
+.TrustedBySectionImage {
+    display: block;
+    width: 65%;
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
