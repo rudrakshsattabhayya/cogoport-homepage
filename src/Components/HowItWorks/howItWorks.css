@@ -1,0 +1,130 @@
+.wide_container_RLauto{
+    display: block;
+    width:1200px;
+    padding:16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flexcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how_it_works_container{
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.how_it_works_container h3{
+    font-size: 28px;
+    line-height: 1.2;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+
+}
+
+.rc_btn{
+    background-color: #ee3425;
+    border:1px solid #ee3425;
+    border-radius: 20px;
+    width: 200px;
+    height: 36px;
+    padding:20px 18px;
+    margin: 0 20px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    outline:none;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    appearance: auto;
+    writing-mode: horizontal-tb;
+}
+
+.hiw_stages_container{
+    position: relative;
+    display: flex;
+}
+
+.hiw_item{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+
+.hiw_p1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    font-family: "PT Sans",sans-serif;
+    font-weight: 600;
+    color: #ee3425;
+    font-size: 16px;
+    
+    /* margin-top: 0;
+    margin-bottom: 1em; */
+}
+
+.hiw_item_title{
+    font-family: "PT Sans",sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 10px 0px;
+    list-style-position: outside;
+}
+
+.hiw_p2{
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.hiw_arrow_left_top{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.hiw_arrow_right_top{
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+.img_hiw_arrow{
+    width:150px;
+    height:60px;
+}
+
+.hiw_arrow_left_bottom{
+    position: absolute;
+    bottom: 112px;
+    left: 300px;
+}
+.hiw_arrow_right_bottom{
+    position: absolute;
+    bottom: 112px;
+    right: 300px;
+}
+.img_hiw_laptop{
+    width: 560px;
+    height: 320px;
+}

@@ -1,0 +1,28 @@
+.middleFooterInnerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    padding-bottom: 30px;
+    background-color: #ebbe00;
+}
+
+.middleFooter a{
+    cursor: pointer;
+    color: #000;
+    font-size: 13px;
+}
+
+.middleFooter a:hover{
+    text-decoration: underline;
+    color:#ee3425;
+}
+
+.middleFooterList{
+    display:flex; 
+    flex-direction:column;
+}
+
+.middleFooterList a{
+    font-size: 14px;
+    line-height:2rem;
+}

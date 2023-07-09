@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Ubuntu&display=swap');
 
 .topContainer{
-    position: relative;
-    width: 100%;
+    display: block;
     background: url("./../../../public/Top-Container/home-banner-background-top-container.webp");
     background-color: #fbdc00;
     background-repeat: no-repeat;
@@ -56,4 +55,40 @@
     width: 650px;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+@media (max-width: 767px) {
+    .topContainer{
+        margin-top: 30px;
+        background-position: 50%;
+        background-size: initial;
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    .topContainerInner{
+        flex-direction: column-reverse;
+        margin:0;
+        padding:0;
+        width: fit-content;
+    }
+    .topContainerInner div{
+        margin-top: 10px;
+        width: fit-content;
+        margin-bottom: 16px;
+    }
+    .topContainerWomanImg{
+        width: 90%;
+        height: auto;
+        padding:16px;
+        margin-top: 11px;
+        padding-right: 0;
+    }
+    .topContainerHeading{
+        font-size: 24px;
+        margin: 0;
+    }
+    .topContainerPara{
+        display: block;
+    }
 }

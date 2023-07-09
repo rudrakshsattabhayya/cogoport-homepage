@@ -1,0 +1,24 @@
+.bottomFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background: #ebbe00;
+}
+
+.bottomFooterCopyRight{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.bottomFooterCopyRight a{
+    color: #000;
+}
+
+.bottomFooterCopyRight a:hover{
+    text-decoration: underline;
+}

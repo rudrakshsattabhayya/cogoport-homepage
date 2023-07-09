@@ -1,0 +1,51 @@
+.topFooter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 0 50px 50px;
+    background: #fbdc00;
+}
+
+.topFooterList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topFooterList a{
+    cursor: pointer;
+    font-weight: 400;
+    color: #000;
+    font-size: 13px;
+}
+
+.topFooterList a:hover{
+    text-decoration: underline;
+}
+
+.topFooterHeading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.topFooterListElem{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    font-size: 14px;
+    margin-top:8px;
+}
+
+.topFooterSubList{
+    display:flex;
+    flex-direction:column;
+}

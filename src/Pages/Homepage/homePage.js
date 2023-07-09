@@ -4,31 +4,37 @@ import StatsSection from "../../Components/StatsSection/statsSection";
 import OurProductsSection from "../../Components/OurProductsSection/ourProducts";
 import TrustedBySection from "../../Components/TrustedBy Section/trustedBySection";
 import GetStartedSection from "../../Components/GetStartedSection/getStartedSection";
+import HowItWorks from "../../Components/HowItWorks/howItWorks";
 import IndustriesServedSection from "../../Components/IndustriesServedSection/industriesServedSection";
 import BiggerGetStartedSection from "../../Components/BiggerGetStartedSection/biggerGetStartedSection";
 import KnowMoreSection from "../../Components/KnowMoreSection/knowMoreSection";
 import BlogSection from "../../Components/BlogSection/blogSection";
 import SubscribeUsSection from "../../Components/SubscribeUsSection/subscribeUsSection";
 import TopFooter from "../../Components/TopFooter/topFooter.js";
+import MiddleFooter from "../../Components/MiddleFooter/middleFooter";
+import BottomFooter from "../../Components/BottomFooter/bottomFooter";
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
       <main className="mainContainer">
-        <TopContainer />
-        <StatsSection />
-        <OurProductsSection />
-        <TrustedBySection />
+      <Navbar />
+        {/* <TopContainer /> */}
+        {/* <StatsSection />
+        <OurProductsSection /> */}
+        {/* <TrustedBySection />
         <GetStartedSection />
+        <HowItWorks />
         <IndustriesServedSection />
         <BiggerGetStartedSection />
         <KnowMoreSection />
         <BlogSection />
-        <SubscribeUsSection />
+        <SubscribeUsSection /> */}
       </main>
       <footer>
-        <TopFooter />
+        {/* <TopFooter />
+        <MiddleFooter />
+        <BottomFooter /> */}
       </footer>
     </div>
   );

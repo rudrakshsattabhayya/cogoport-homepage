@@ -150,3 +150,86 @@
     cursor: pointer;
     margin-right: 4px;
 }
+
+@media (max-width: 767px) {
+    .ourProductSectionContainer{
+        width:100%;
+    }
+    .oneStepSection{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding: 0px;
+        width:100%;
+    }
+    .oneStepSection h2{
+        display: block;
+        font-size: 24px;
+    }
+    .oneStepSectionImgContainer{
+        width:100%;
+        padding: 16px;;
+    }
+    .oneStepSectionImg{
+        width:100%;
+    }
+
+    .ourProductsContainer{
+        width:100%;
+    }
+    .ourProductsHeading{
+        padding: 0;
+        margin-bottom: 0;
+        text-align: inherit;
+        font-size: 20px;
+    }
+    .ourProductsListContainer1{
+        display: flex;
+        padding: 0;
+    }
+    .ourProductsListContainer2{
+        /* width:100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    .ourProductsListItem{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourProductsListItem h4{
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        font-size: 16px
+    }
+    .ourProductsListItemRight{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourProductsListItemRight div{
+        width: 128px;
+        height: 128px;
+        padding: 0;
+        margin: 8px;
+        text-align: center;
+        }
+    .ourProductsListItemRight h4{
+        width:fit-content;
+        margin-bottom: 5px;
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 1.3em;
+    }
+    .cardFindOutMore{
+        margin-top: 15px;
+        margin-bottom: 6px;
+    }
+    .cardFindOutMoreText{
+        font-size: 12px;
+    }
+
+}

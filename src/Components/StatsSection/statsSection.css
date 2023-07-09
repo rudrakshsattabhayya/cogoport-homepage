@@ -47,3 +47,32 @@
     margin-inline-end: 0;
     font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .statsContainer{
+        width:100%;
+    }
+    .stats{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        margin-bottom: -40px;
+    }
+    .statItem{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .statItem h2{
+        font-size: 24px;
+    }
+    .statItem h4{
+        font-size:  14px;
+    }
+}

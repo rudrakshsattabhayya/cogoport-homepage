@@ -1,6 +1,15 @@
 import "./topContainer.css";
-
+import { useEffect, useState } from "react";
 const TopContainer = () => {
+  let normalSrc = "./Top-Container/background-video.webm";
+  let smallSrc = "./Top-Container/background-video-small.webm";
+  const [screenWidth, updateScreenWidth] = useState(window.screen.width);
+  
+  useEffect(()=>{
+    updateScreenWidth(window.screen.width);
+  }, [window.screen.width])
+
+
   return (
     <div className="topContainer">
       <div className="topContainerInner">
@@ -22,7 +31,7 @@ const TopContainer = () => {
           className="topContainerWomanImg"
         >
           <source
-            src="./Top-Container/background-video.webm"
+            src={screenWidth >= 767? normalSrc:smallSrc}
             type="video/webm"
           />
         </video>

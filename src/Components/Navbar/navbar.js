@@ -9,7 +9,7 @@ const Navbar = () => {
       updateScrollPosition(window.scrollY);
     };
     window.addEventListener("scroll", handleScroll);
-
+    // console.log(scrollPosition)
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -18,8 +18,11 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className={scrollPosition !== 0?"navbarScrolledProperties":"normalNavbar"}
+      className={scrollPosition > 0?"navbarScrolledProperties":"normalNavbar"}
     >
+      <div className="hamburger">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="16" height="16" role="img"><path d="M1.781 1.793c-.355.123-.539.395-.516.761a.731.731 0 0 0 .477.642c.126.047.155.047 5.258.047s5.132 0 5.258-.047a.752.752 0 0 0 .306-1.184.807.807 0 0 0-.239-.174l-.156-.076-5.134-.006c-4.887-.004-5.139-.003-5.254.037m-.023 4.503c-.62.215-.672 1.084-.083 1.374l.133.065h10.384l.133-.065c.55-.27.55-1.07 0-1.34l-.133-.065-5.157-.005c-4.903-.005-5.163-.003-5.277.036m-.023 4.509a.724.724 0 0 0-.469.652.691.691 0 0 0 .409.705l.156.076h10.338l.156-.076a.694.694 0 0 0 .41-.706.602.602 0 0 0-.078-.3.786.786 0 0 0-.399-.352c-.126-.047-.154-.047-5.265-.046-5.061.001-5.14.002-5.258.047" fillRule="evenodd"></path></svg>
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="120"
