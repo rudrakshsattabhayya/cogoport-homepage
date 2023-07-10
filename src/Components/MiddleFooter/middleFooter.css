@@ -26,3 +26,9 @@
     font-size: 14px;
     line-height:2rem;
 }
+
+@media (max-width: 768px) {
+    .middleFooter{
+        display: none;
+    }
+}

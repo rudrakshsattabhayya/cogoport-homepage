@@ -22,3 +22,27 @@
 .bottomFooterCopyRight a:hover{
     text-decoration: underline;
 }
+
+.bottomFooterIcons{
+    padding: 8px 30px;
+}
+
+@media (max-width: 768px) {
+    .bottomFooterTemp{
+        display: none;
+    }
+    .bottomFooter{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-left: 16px;
+    }
+    .bottomFooterIcons{
+        padding-left: 0;
+    }
+    .bottomFooterCopyRight{
+        margin-left: 0;
+        font-family: "PT Sans",sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

@@ -6,7 +6,7 @@
 
 .blogSection{
     display: block;
-    width:1200px;
+    max-width:1200px;
     padding:16px;
     margin-right: auto;
     margin-left: auto;
@@ -69,5 +69,25 @@
     font-weight: 700;
     color:#ee3425;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .blogSectionContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blogItem{
+        width:90%;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        overflow: hidden;
+        text-align: start;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+    }
+
 }
 

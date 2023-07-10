@@ -4,10 +4,15 @@
 
 .industriesServedInnerContainer{
     display: block;
-    width:1200px;
+    max-width: 1200px;
     padding:16px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 0;
+    }
 }
 
 .industriesServedHeading{
@@ -23,6 +28,10 @@
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
+
+    @media (max-width: 850px) {
+        justify-content: center;
+    }
 }
 
 .industriesServedItems{

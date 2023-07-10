@@ -6,6 +6,7 @@
     padding-top: 120px;
     margin-top: 20px;
     background-color: #fbdc00;
+    
 }
 
 .subscribeUsContainer h3 {
@@ -26,9 +27,26 @@
 }
 
 .subscribeUsImgContainer{
-    width: 20%;
     padding: 20px;
     margin: 20px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.subscribeUsImgContainer img{
+    width: 206px;
+    height: 168px;
+}
+
+.subscribeUsTextContainer{
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .subscribeUsSubscriberInput{

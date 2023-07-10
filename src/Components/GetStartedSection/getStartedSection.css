@@ -5,7 +5,7 @@
 
 .wide_container_RLauto{
     display: block;
-    width:1200px;
+    max-width:1200px;
     padding:16px;
     margin-right: auto;
     margin-left: auto;
@@ -24,10 +24,22 @@
     font-weight: 800;
     color:#000;
     font-family: "Ubuntu",sans-serif;
+
+    
+    @media (max-width: 768px) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 .rtty_yellow_container{
-    padding:25px 0;display: flex;justify-content: space-between;
+    padding:25px 0;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .flexcc{

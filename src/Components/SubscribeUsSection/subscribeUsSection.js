@@ -6,7 +6,7 @@ const SubscribeUsSection = () => {
                 <div className="subscribeUsImgContainer">
                     <img src="./Subscribe-Us-Section/cogoport-subscribe.webp" alt="subscribe-letter"/>
                 </div>
-                <div>
+                <div className="subscribeUsTextContainer">
                     <h3>Subscribe to our newsletter now!</h3>
                     <span style={{fontSize: "16px"}}>Don’t miss out on the latest happenings at Cogoport.</span>
                     <div style={{marginTop: "20px"}}>

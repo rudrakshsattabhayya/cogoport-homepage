@@ -18,23 +18,23 @@ const HomePage = () => {
   return (
     <div>
       <main className="mainContainer">
-      <Navbar />
-        {/* <TopContainer /> */}
-        {/* <StatsSection />
-        <OurProductsSection /> */}
-        {/* <TrustedBySection />
+        <Navbar />
+        <TopContainer />
+        <StatsSection />
+        <OurProductsSection />
+        <TrustedBySection />
         <GetStartedSection />
         <HowItWorks />
         <IndustriesServedSection />
         <BiggerGetStartedSection />
         <KnowMoreSection />
         <BlogSection />
-        <SubscribeUsSection /> */}
+        <SubscribeUsSection />
       </main>
       <footer>
-        {/* <TopFooter />
+        <TopFooter />
         <MiddleFooter />
-        <BottomFooter /> */}
+        <BottomFooter />
       </footer>
     </div>
   );

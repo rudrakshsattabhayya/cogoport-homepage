@@ -8,7 +8,7 @@
 }
 
 .oneStepSection{
-    width:1200px;
+    max-width: 1200px;
     padding: 16px;
     margin-right: auto;
     margin-left: auto;
@@ -47,7 +47,7 @@
 
 .ourProductsContainer{
     display: block;
-    width:1200px;
+    max-width: 1200px;
     padding: 16px;
     margin-right: auto;
     margin-left: auto;
@@ -151,6 +151,21 @@
     margin-right: 4px;
 }
 
+
+
+.ourProductsListContainer2InnerDiv{
+    display: flex;
+    align-items: center;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.ourProductsListContainer2InnerDiv > h4{
+    width: 300px;
+}
+
 @media (max-width: 767px) {
     .ourProductSectionContainer{
         width:100%;
@@ -195,8 +210,11 @@
         flex-direction: column;
     }
     .ourProductsListItem{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
         align-items: center;
+        justify-content: center;
     }
     .ourProductsListItem h4{
         display: flex;

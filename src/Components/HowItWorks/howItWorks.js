@@ -9,7 +9,7 @@ const HowItWorks = () => {
                         <button className="rc_btn" style={{backgroundColor: "#fbdc00", borderColor: "#fbdc00"}}>
                             <span>For Cargo Owners</span>
                         </button>
-                        <button class="rc_btn" style={{backgroundColor: "#fbdc00", borderColor: "#fbdc00"}}>
+                        <button class="rc_btn" style={{backgroundColor: "#E5DFDF", borderColor: "#E5DFDF"}}>
                             <span>For Logistics Partners</span>
                         </button>
                     </div>

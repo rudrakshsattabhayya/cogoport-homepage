@@ -49,3 +49,23 @@
     display:flex;
     flex-direction:column;
 }
+
+@media (max-width: 1000px) {
+    .topFooterSubList{
+        display: none;
+    }
+    .topFooter{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .topFooter :nth-child(2){
+        display: none;
+    }
+    .topFooterHeading{
+        padding-left: 16px;
+        padding-bottom: 16px;
+        text-decoration: none;
+        border-bottom: 0.67px solid rgba(0,0,0,.4);;
+    }
+}

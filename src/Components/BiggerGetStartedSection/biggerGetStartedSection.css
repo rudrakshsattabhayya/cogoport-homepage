@@ -1,11 +1,14 @@
 .biggerGetStartedSection{
-    width: 1000px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     align-items: center;
     padding: 16px 100px;
-    padding-top: 4rem;
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+        padding: 16px;
+    }
 }
 
 .biggerGetStartedSectionImgContainer{
@@ -45,4 +48,17 @@
     font-size: 16px;
     line-height: 24px;
     margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .biggerGetStartedSectionLeft{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.biggerGetStartedSectionButton{
+    @media (max-width: 768px) {
+        width: 95%;
+    }
 }

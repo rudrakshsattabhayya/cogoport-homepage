@@ -22,7 +22,7 @@ const BlogSection = () => {
                             <h4 style={{marginTop: 0, marginBottom: "5px", fontSize: "18px", color: "#000"}}>
                                 {blog.mainHeading}
                             </h4>
-                            <p style={{maxHeight: "calc(1.4rem * 3)", overflow: "hidden", marginTop: "5px"}}>
+                            <p style={{maxHeight: "calc(1.4rem * 3)", overflow: "hidden", marginTop: "5px", marginBottom: "8px"}}>
                                 {blog.description}
                             </p>
                             <div className="generalFlexClass blogItemLowerTextContainer">

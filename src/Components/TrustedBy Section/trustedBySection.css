@@ -44,3 +44,14 @@ article {
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 768px) {
+    .TrustedBySectionContainer h3{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    article{
+        width: 650%;
+    }
+}

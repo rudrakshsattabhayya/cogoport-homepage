@@ -32,8 +32,9 @@ const OurProductsSection = () => {
           <div className="ourProductsListContainer2">
             {ourProducts.map((product, index) => {
               return (
+                <div className="ourProductsListContainer2InnerDiv">
+                <h4>{product.heading}</h4>
                 <div className="ourProductsListItem" key={index}>
-                  <h4>{product.heading}</h4>
                   {product.items.map((item, innerIndex) => {
                     return (
                       <div className="ourProductsListItemRight" key={innerIndex}>
@@ -75,6 +76,7 @@ const OurProductsSection = () => {
                       </div>
                     );
                   })}
+                </div>
                 </div>
               );
             })}
