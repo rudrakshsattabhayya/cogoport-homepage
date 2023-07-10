@@ -1,14 +1,22 @@
 .getStartedSectionContainer{
     background-color: #fbdc00; 
     margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        margin: 0;
+    }
 }
 
 .wide_container_RLauto{
     display: block;
     max-width:1200px;
-    padding:16px;
+    padding: 16px;
     margin-right: auto;
     margin-left: auto;
+    @media (max-width: 768px) {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .heading_rttyscttnl{
@@ -17,8 +25,6 @@
     line-height: 1.2;
     margin-bottom: 5px;
     display: block;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em; */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: 800;

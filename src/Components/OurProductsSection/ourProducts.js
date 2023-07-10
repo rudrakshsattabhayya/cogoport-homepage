@@ -9,7 +9,7 @@ const OurProductsSection = () => {
           <div style={{ display: "block" }}>
             <h2>
               One Stop Solution for Your
-              <br />
+              <br className="ourProductSectionBr" />
               Supply Chain
             </h2>
             <p className="oneStepSectionPara">
@@ -32,8 +32,8 @@ const OurProductsSection = () => {
           <div className="ourProductsListContainer2">
             {ourProducts.map((product, index) => {
               return (
-                <div className="ourProductsListContainer2InnerDiv">
-                <h4>{product.heading}</h4>
+                <div className="ourProductsListContainer2InnerDiv" key={index}>
+                <h4 className="ourProductsListContainerLeftHeading">{product.heading}</h4>
                 <div className="ourProductsListItem" key={index}>
                   {product.items.map((item, innerIndex) => {
                     return (

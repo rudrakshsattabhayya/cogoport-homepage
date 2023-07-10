@@ -4,10 +4,16 @@ const TopContainer = () => {
   let normalSrc = "./Top-Container/background-video.webm";
   let smallSrc = "./Top-Container/background-video-small.webm";
   const [screenWidth, updateScreenWidth] = useState(window.screen.width);
-  
-  useEffect(()=>{
-    updateScreenWidth(window.screen.width);
-  }, [window.screen.width])
+
+  useEffect(() => {
+    const handleResize = () => {
+        updateScreenWidth(window.screen.width);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.addEventListener("resize", handleResize);
+    };
+  }, []);
 
 
   return (
@@ -31,7 +37,7 @@ const TopContainer = () => {
           className="topContainerWomanImg"
         >
           <source
-            src={screenWidth >= 767? normalSrc:smallSrc}
+            src={screenWidth > 768? normalSrc:smallSrc}
             type="video/webm"
           />
         </video>

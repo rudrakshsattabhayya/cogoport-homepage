@@ -138,6 +138,12 @@
     height: 320px;
 }
 
+@media (min-width: 1200px) {
+    .smallComputerHiw{
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
     .how_it_works_container{
         width: 100%;

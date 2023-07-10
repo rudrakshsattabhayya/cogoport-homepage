@@ -13,12 +13,14 @@ import SubscribeUsSection from "../../Components/SubscribeUsSection/subscribeUsS
 import TopFooter from "../../Components/TopFooter/topFooter.js";
 import MiddleFooter from "../../Components/MiddleFooter/middleFooter";
 import BottomFooter from "../../Components/BottomFooter/bottomFooter";
+import FixedWhatsapp from "../../Components/WhatsappFixed/fixedWhatsapp";
 
 const HomePage = () => {
   return (
     <div>
+    <Navbar />
       <main className="mainContainer">
-        <Navbar />
+        <FixedWhatsapp />
         <TopContainer />
         <StatsSection />
         <OurProductsSection />

@@ -2,58 +2,61 @@ import "./howItWorks.css";
 
 const HowItWorks = () => {
     return (
-        <div class="wide_container_RLauto">
-                <div class="flexcc how_it_works_container">
+        <div className="wide_container_RLauto">
+                <div className="flexcc how_it_works_container">
                     <h3>How it Works</h3>
-                    <div class="flexcc hiw_btns_small_container">
+                    <div className="flexcc hiw_btns_small_container">
                         <button className="rc_btn" style={{backgroundColor: "#fbdc00", borderColor: "#fbdc00"}}>
                             <span>For Cargo Owners</span>
                         </button>
-                        <button class="rc_btn" style={{backgroundColor: "#E5DFDF", borderColor: "#E5DFDF"}}>
+                        <button className="rc_btn" style={{backgroundColor: "#E5DFDF", borderColor: "#E5DFDF"}}>
                             <span>For Logistics Partners</span>
                         </button>
                     </div>
                     <div>
-                        <div class="hiw_stages_container">
+                        <div className="hiw_stages_container">
                             <div>
-                                <div class="hiw_item" style={{marginBottom: "120px"}}>
-                                    <p class="hiw_p1">
+                            <div className="flexcc small_container smallComputerHiw">
+                                    <img src="./How-It-Works-Section/computer.webp" alt="cogoport platform with rate search" className="img_hiw_laptop"/>
+                            </div>
+                                <div className="hiw_item" style={{marginBottom: "120px"}}>
+                                    <p className="hiw_p1">
                                         Stage 1:
                                     </p>
-                                    <div class="hiw_item_title">
+                                    <div className="hiw_item_title">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" width="40" height="40" role="img" style={{listStylePosition: "outside"}}>
-                                            <path d="M12.613 7h-1.576" stroke="#221F1F" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.264"></path>
-                                            <path d="M7 12.85a5.85 5.85 0 1 0 0-11.7 5.85 5.85 0 0 0 0 11.7Z" stroke-width="0.264" stroke-linejoin="round" stroke-linecap="round" fill="#FBDC00" stroke="#221F1F"></path>
-                                            <path d="M9.383 4.371 5.72 5.652a.11.11 0 0 0-.068.068L4.37 9.383a.21.21 0 0 0 .246.246L8.28 8.348a.109.109 0 0 0 .068-.068l1.28-3.663a.21.21 0 0 0-.245-.246Z" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke="#221F1F" stroke-width="0.264"></path>
+                                            <path d="M12.613 7h-1.576" stroke="#221F1F" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.264"></path>
+                                            <path d="M7 12.85a5.85 5.85 0 1 0 0-11.7 5.85 5.85 0 0 0 0 11.7Z" strokeWidth="0.264" strokeLinejoin="round" strokeLinecap="round" fill="#FBDC00" stroke="#221F1F"></path>
+                                            <path d="M9.383 4.371 5.72 5.652a.11.11 0 0 0-.068.068L4.37 9.383a.21.21 0 0 0 .246.246L8.28 8.348a.109.109 0 0 0 .068-.068l1.28-3.663a.21.21 0 0 0-.245-.246Z" fill="#fff" strokeLinecap="round" strokeLinejoin="round" stroke="#221F1F" strokeWidth="0.264"></path>
                                             <path d="M7 7.762a.762.762 0 1 0 0-1.524.762.762 0 0 0 0 1.524Z" fill="#221F1F"></path>
-                                            <path d="M7 1.387v1.576m0 9.65v-1.576M1.387 7h1.576" stroke="#221F1F" stroke-linecap="round" stroke-linejoin="round"stroke-width="0.264"></path>
+                                            <path d="M7 1.387v1.576m0 9.65v-1.576M1.387 7h1.576" stroke="#221F1F" strokeLinecap="round" strokeLinejoin="round"strokeWidth="0.264"></path>
                                         </svg>
                                         <div style={{paddingLeft: "8px", fontSize: "20px", fontWeight: "600"}}>Discover</div>
                                     </div>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Spot and Contract Rates for Logistics</p>
+                                        <p className="hiw_p2">Spot and Contract Rates for Logistics</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Service details, Trade Compliance/ Regulatory Requirements</p>
+                                        <p className="hiw_p2">Service details, Trade Compliance/ Regulatory Requirements</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</p>
+                                        <p className="hiw_p2">Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</p>
                                     </span>
                                 </div>
-                                <div class="hiw_arrow_left_top">
-                                    <img src="./How-It-Works-Section/top-left.webp" alt="line for stages" class="img_hiw_arrow" />
+                                <div className="hiw_arrow_left_top">
+                                    <img src="./How-It-Works-Section/top-left.webp" alt="line for stages" className="img_hiw_arrow" />
                                 </div>
-                                <div class="hiw_item">
-                                    <p class="hiw_p1">
+                                <div className="hiw_item">
+                                    <p className="hiw_p1">
                                         Stage 2:
                                     </p>
-                                    <div class="hiw_item_title">
+                                    <div className="hiw_item_title">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" width="40" height="40" role="img" style={{listStylePosition: "outside"}}>
-                                            <path stroke="#221F1F" fill="#FBDC00" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.374" d="M9.37 1.851c0-.36-.276-.651-.617-.651-.34 0-.617.291-.617.651v1.307c0 .36.276.65.617.65.341.001.618-.29.618-.65V1.851Z"></path>
-                                            <g stroke-width="0.374" stroke="#221F1F" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="#221F1F" fill="#FBDC00" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.374" d="M9.37 1.851c0-.36-.276-.651-.617-.651-.34 0-.617.291-.617.651v1.307c0 .36.276.65.617.65.341.001.618-.29.618-.65V1.851Z"></path>
+                                            <g strokeWidth="0.374" stroke="#221F1F" strokeLinecap="round" strokeLinejoin="round">
                                                 <path fill="#FBDC00" d="M9.935 2.2h-5.87c-.515 0-.932.44-.932.981v8.638c0 .542.417.981.932.981h5.87c.515 0 .932-.44.932-.981V3.18c0-.542-.417-.981-.932-.981Z"></path>
                                                 <path fill="#FBDC00" d="M5.864 1.851c0-.36-.276-.651-.617-.651-.341 0-.618.291-.618.651v1.307c0 .36.277.65.618.65.34.001.617-.29.617-.65V1.851Z"></path>
                                                 <path d="M6.366 5.78h2.908M6.366 8.095h2.908M6.366 10.41h2.908"></path>
@@ -66,26 +69,26 @@ const HowItWorks = () => {
                                     </div>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Route, Service Schedules, Inventory, and Cashflow planning</p>
+                                        <p className="hiw_p2">Route, Service Schedules, Inventory, and Cashflow planning</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Book with upfront visibility of service terms and inclusions</p>
+                                        <p className="hiw_p2">Book with upfront visibility of service terms and inclusions</p>
                                     </span>
                                 </div>
-                                <div class="hiw_arrow_left_bottom">
-                                    <img src="./How-It-Works-Section/bottom-left.webp" alt="line for stages" class="img_hiw_arrow" />
+                                <div className="hiw_arrow_left_bottom">
+                                    <img src="./How-It-Works-Section/bottom-left.webp" alt="line for stages" className="img_hiw_arrow" />
                                 </div>
                             </div>
-                            <div class="flexcc big_container">
-                                <img src="./How-It-Works-Section/computer.webp" alt="cogoport platform with rate search" class="img_hiw_laptop"/>
+                            <div className="flexcc big_container">
+                                <img src="./How-It-Works-Section/computer.webp" alt="cogoport platform with rate search" className="img_hiw_laptop"/>
                             </div>
                             <div>
-                                <div class="hiw_item" style={{marginBottom: "120px"}}>
-                                    <p class="hiw_p1">
+                                <div className="hiw_item" style={{marginBottom: "120px"}}>
+                                    <p className="hiw_p1">
                                         Stage 3:
                                     </p>
-                                    <div class="hiw_item_title">
+                                    <div className="hiw_item_title">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" width="40" height="40" role="img" style={{listStylePosition: "outside"}}>
                                             <path fill="#FBDC00" d="M12.749 10.698V4.715a.967.967 0 0 0-.967-.967H2.219a.967.967 0 0 0-.968.967v5.983c0 .534.433.968.968.968h9.563a.967.967 0 0 0 .967-.968Z"></path>
                                             <path fill="#231F20" d="M12.895 4.529v6.355a.927.927 0 0 1-.927.927H2.032a.927.927 0 0 1-.927-.927V4.53a.927.927 0 0 1 .927-.927h9.936a.927.927 0 0 1 .927.927ZM1.397 10.884a.636.636 0 0 0 .635.635h9.936a.635.635 0 0 0 .635-.634V4.529a.636.636 0 0 0-.635-.635H2.032a.636.636 0 0 0-.635.635v6.355Z"></path>
@@ -117,25 +120,25 @@ const HowItWorks = () => {
                                     </div>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Ocean and Air Cargo Tracking</p>
+                                        <p className="hiw_p2">Ocean and Air Cargo Tracking</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Documentation and Filings, Handled</p>
+                                        <p className="hiw_p2">Documentation and Filings, Handled</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</p>
+                                        <p className="hiw_p2">Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</p>
                                     </span>
                                 </div>
-                                <div class="hiw_arrow_right_top">
-                                    <img src="./How-It-Works-Section/top-right.webp" alt="line for stages" class="img_hiw_arrow" />
+                                <div className="hiw_arrow_right_top">
+                                    <img src="./How-It-Works-Section/top-right.webp" alt="line for stages" className="img_hiw_arrow" />
                                 </div>
-                                <div class="hiw_item">
-                                    <p class="hiw_p1">
+                                <div className="hiw_item">
+                                    <p className="hiw_p1">
                                         Stage 4:
                                     </p>
-                                    <div class="hiw_item_title">
+                                    <div className="hiw_item_title">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" width="40" height="40" role="img" style={{listStylePosition: "outside"}}>
                                             <path fill="#231F20" d="M9.545 10.056a.107.107 0 0 1-.076-.031l-.636-.636a.107.107 0 0 1 0-.15.107.107 0 0 1 .15 0l.636.636a.107.107 0 0 1 0 .15.107.107 0 0 1-.074.031Zm.932-2.403h-.92a.108.108 0 1 1 0-.215h.92a.108.108 0 0 1 0 .215ZM8.738 5.947a.107.107 0 0 1-.075-.032.107.107 0 0 1 0-.15l.488-.487a.107.107 0 0 1 .15 0 .108.108 0 0 1 0 .15l-.489.487a.108.108 0 0 1-.074.032ZM7.032 5.28a.108.108 0 0 1-.107-.107v-1.36a.107.107 0 1 1 .215 0v1.359a.107.107 0 0 1-.107.108Zm-1.647.725a.107.107 0 0 1-.076-.031l-.546-.546a.108.108 0 0 1 0-.15.108.108 0 0 1 .15 0l.546.546a.107.107 0 0 1 0 .15.107.107 0 0 1-.074.031Zm-.767 1.648h-1.45a.108.108 0 1 1 0-.215h1.45a.107.107 0 0 1 0 .215Zm.076 2.337a.108.108 0 0 1-.075-.031.108.108 0 0 1 0-.15l.556-.557a.107.107 0 0 1 .15 0 .107.107 0 0 1 0 .15l-.557.557a.108.108 0 0 1-.074.032Zm2.338 1.108a.108.108 0 0 1-.107-.108v-.918a.107.107 0 0 1 .107-.108.108.108 0 0 1 .108.107v.921a.107.107 0 0 1-.107.105Z" ></path>
                                             <path fill="#FBDC00" d="M7.032 4.074a.92.92 0 1 0 0-1.84.92.92 0 0 0 0 1.84Z"></path>
@@ -174,15 +177,15 @@ const HowItWorks = () => {
                                     </div>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Deferred payment on Logistics with PayLater</p>
+                                        <p className="hiw_p2">Deferred payment on Logistics with PayLater</p>
                                     </span>
                                     <span style={{display: "flex"}}>
                                         <div style={{fontSize:"20px"}}>•</div>
-                                        <p class="hiw_p2">Trade Finance for your Cargo with Export Factoring</p>
+                                        <p className="hiw_p2">Trade Finance for your Cargo with Export Factoring</p>
                                     </span>
                                 </div>
-                                <div class="hiw_arrow_right_bottom">
-                                    <img src="./How-It-Works-Section/bottom-right.webp" alt="line for stages" class="img_hiw_arrow" />
+                                <div className="hiw_arrow_right_bottom">
+                                    <img src="./How-It-Works-Section/bottom-right.webp" alt="line for stages" className="img_hiw_arrow" />
                                 </div>
                             </div>
                         </div>
